@@ -8,8 +8,8 @@ import (
 	"gioui.org/io/system"
 	"gioui.org/layout"
 	"gioui.org/op"
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers/gio"
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/renderers/gio"
 )
 
 func main() {

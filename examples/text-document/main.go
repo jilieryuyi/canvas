@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers/pdf"
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/renderers/pdf"
 )
 
 var fontLatin *canvas.FontFamily

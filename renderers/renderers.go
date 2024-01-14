@@ -10,12 +10,12 @@ import (
 	"strings"
 
 	//webp "github.com/kolesa-team/go-webp/encoder"
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers/pdf"
-	"github.com/tdewolff/canvas/renderers/ps"
-	"github.com/tdewolff/canvas/renderers/rasterizer"
-	"github.com/tdewolff/canvas/renderers/svg"
-	"github.com/tdewolff/canvas/renderers/tex"
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/renderers/pdf"
+	"github.com/jilieryuyi/canvas/renderers/ps"
+	"github.com/jilieryuyi/canvas/renderers/rasterizer"
+	"github.com/jilieryuyi/canvas/renderers/svg"
+	"github.com/jilieryuyi/canvas/renderers/tex"
 	"golang.org/x/image/bmp"
 	"golang.org/x/image/tiff"
 )

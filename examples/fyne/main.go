@@ -3,8 +3,8 @@ package main
 import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
-	"github.com/tdewolff/canvas"
-	canvasFyne "github.com/tdewolff/canvas/renderers/fyne"
+	"github.com/jilieryuyi/canvas"
+	canvasFyne "github.com/jilieryuyi/canvas/renderers/fyne"
 )
 
 func main() {

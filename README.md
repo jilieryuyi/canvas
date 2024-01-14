@@ -1,10 +1,10 @@
 ![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/resources/title/title.png)
 
-[![API reference](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/github.com/tdewolff/canvas?tab=doc) [![User guide](https://img.shields.io/badge/user-guide-5272B4)](https://github.com/tdewolff/canvas/wiki) [![Go Report Card](https://goreportcard.com/badge/github.com/tdewolff/canvas)](https://goreportcard.com/report/github.com/tdewolff/canvas) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/canvas/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/canvas?branch=master) [![Donate](https://img.shields.io/badge/patreon-donate-DFB317)](https://www.patreon.com/tdewolff)
+[![API reference](https://img.shields.io/badge/godoc-reference-5272B4)](https://pkg.go.dev/github.com/jilieryuyi/canvas?tab=doc) [![User guide](https://img.shields.io/badge/user-guide-5272B4)](https://github.com/jilieryuyi/canvas/wiki) [![Go Report Card](https://goreportcard.com/badge/github.com/jilieryuyi/canvas)](https://goreportcard.com/report/github.com/jilieryuyi/canvas) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/canvas/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/canvas?branch=master) [![Donate](https://img.shields.io/badge/patreon-donate-DFB317)](https://www.patreon.com/tdewolff)
 
-**[API documentation](https://pkg.go.dev/github.com/tdewolff/canvas?tab=doc)**
+**[API documentation](https://pkg.go.dev/github.com/jilieryuyi/canvas?tab=doc)**
 
-**[User guide](https://github.com/tdewolff/canvas/wiki)**
+**[User guide](https://github.com/jilieryuyi/canvas/wiki)**
 
 **[Live HTMLCanvas demo](https://tdewolff.github.io/canvas/examples/html-canvas/index.html)**
 
@@ -20,7 +20,7 @@ Please see https://www.patreon.com/tdewolff for ways to contribute, otherwise pl
 ## State
 Whether this library is ready for production environments is up to your own judgment. In general, this library is written thoughtfully and complete, but the scope of this work is so big and the implementation can be quite complex that inevitably it must have a great amount of bugs. Effort was put in writing unit and fuzz tests so that I suspect only special use-cases will stumble into bugs, but coverage is still lacking. As time permits, work is done to flesh-out functionality, find bugs, and optimize code. Optimization could be in execution time / reducing code complexity, reducing memory footprint, or reducing the length of paths from operation.
 
-Please issue bug reports or feature requests to help this library mature! All help is appreciated. Also see [Wiki - Planning](https://github.com/tdewolff/canvas/wiki/Planning) for an inexhaustive list of ideas and TODOs.
+Please issue bug reports or feature requests to help this library mature! All help is appreciated. Also see [Wiki - Planning](https://github.com/jilieryuyi/canvas/wiki/Planning) for an inexhaustive list of ideas and TODOs.
 
 ## Recent changes
 
@@ -66,25 +66,25 @@ Please issue bug reports or feature requests to help this library mature! All he
 
 ## Examples
 
-**[Amsterdam city centre](https://github.com/tdewolff/canvas/tree/master/examples/amsterdam-centre)**: the centre of Amsterdam is drawn from data loaded from the Open Street Map API.
+**[Amsterdam city centre](https://github.com/jilieryuyi/canvas/tree/master/examples/amsterdam-centre)**: the centre of Amsterdam is drawn from data loaded from the Open Street Map API.
 
-**[Mauna-Loa CO2 concentration](https://github.com/tdewolff/canvas/tree/master/examples/co2-mauna-loa)**: using data from the Mauna-Loa observatory, carbon dioxide concentrations over time are drawn
+**[Mauna-Loa CO2 concentration](https://github.com/jilieryuyi/canvas/tree/master/examples/co2-mauna-loa)**: using data from the Mauna-Loa observatory, carbon dioxide concentrations over time are drawn
 
-**[Text document](https://github.com/tdewolff/canvas/tree/master/examples/text-document)**: an example of a text document using the PDF backend.
+**[Text document](https://github.com/jilieryuyi/canvas/tree/master/examples/text-document)**: an example of a text document using the PDF backend.
 
-**[OpenGL](https://github.com/tdewolff/canvas/tree/master/examples/opengl)**: an example using the OpenGL backend.
+**[OpenGL](https://github.com/jilieryuyi/canvas/tree/master/examples/opengl)**: an example using the OpenGL backend.
 
-**[Gio](https://github.com/tdewolff/canvas/tree/master/examples/gio)**: an example using the Gio backend.
+**[Gio](https://github.com/jilieryuyi/canvas/tree/master/examples/gio)**: an example using the Gio backend.
 
-**[Fyne](https://github.com/tdewolff/canvas/tree/master/examples/fyne)**: an example using the Fyne backend.
+**[Fyne](https://github.com/jilieryuyi/canvas/tree/master/examples/fyne)**: an example using the Fyne backend.
 
-**[TeX/PGF](https://github.com/tdewolff/canvas/tree/master/examples/tex)**: an example showing the usage of the PGF (TikZ) LaTeX package as renderer in order to generated a PDF using LaTeX.
+**[TeX/PGF](https://github.com/jilieryuyi/canvas/tree/master/examples/tex)**: an example showing the usage of the PGF (TikZ) LaTeX package as renderer in order to generated a PDF using LaTeX.
 
-**[go-chart](https://github.com/tdewolff/canvas/tree/master/examples/go-chart)**: an example using the [go-chart](https://github.com/wcharczuk/go-chart) library, plotting a financial graph.
+**[go-chart](https://github.com/jilieryuyi/canvas/tree/master/examples/go-chart)**: an example using the [go-chart](https://github.com/wcharczuk/go-chart) library, plotting a financial graph.
 
-**[gonum/plot](https://github.com/tdewolff/canvas/tree/master/examples/gonum-plot)**: an example using the [gonum/plot](https://github.com/gonum/plot) library.
+**[gonum/plot](https://github.com/jilieryuyi/canvas/tree/master/examples/gonum-plot)**: an example using the [gonum/plot](https://github.com/gonum/plot) library.
 
-**[HTMLCanvas](https://github.com/tdewolff/canvas/tree/master/examples/html-canvas)**: an example using the HTMLCanvas backend, see the [live demo](https://tdewolff.github.io/canvas/examples/html-canvas/index.html).
+**[HTMLCanvas](https://github.com/jilieryuyi/canvas/tree/master/examples/html-canvas)**: an example using the HTMLCanvas backend, see the [live demo](https://tdewolff.github.io/canvas/examples/html-canvas/index.html).
 
 ## Users
 

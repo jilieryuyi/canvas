@@ -3,7 +3,7 @@ package text
 import (
 	"fmt"
 
-	"github.com/tdewolff/canvas/font"
+	"github.com/jilieryuyi/canvas/font"
 )
 
 type ScriptItem struct {

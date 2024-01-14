@@ -11,9 +11,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tdewolff/canvas/font"
-	"github.com/tdewolff/canvas/text"
-	canvasText "github.com/tdewolff/canvas/text"
+	"github.com/jilieryuyi/canvas/font"
+	"github.com/jilieryuyi/canvas/text"
+	canvasText "github.com/jilieryuyi/canvas/text"
 )
 
 // TextAlign specifies how the text should align or whether it should be justified.

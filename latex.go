@@ -62,7 +62,7 @@ import (
 	"github.com/go-fonts/latin-modern/lmsansdemicond10regular"
 	"github.com/go-fonts/latin-modern/lmsansquot8oblique"
 	"github.com/go-fonts/latin-modern/lmsansquot8regular"
-	canvasFont "github.com/tdewolff/canvas/font"
+	canvasFont "github.com/jilieryuyi/canvas/font"
 	"star-tex.org/x/tex"
 )
 

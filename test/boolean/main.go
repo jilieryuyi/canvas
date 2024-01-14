@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers"
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/renderers"
 )
 
 var font *canvas.FontFamily

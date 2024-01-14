@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/tdewolff/canvas/font"
-	"github.com/tdewolff/canvas/text"
+	"github.com/jilieryuyi/canvas/font"
+	"github.com/jilieryuyi/canvas/text"
 )
 
 // FontStyle defines the font style to be used for the font. It specifies a boldness with optionally italic, e.g. FontBlack | FontItalic will specify a black boldness (a font-weight of 800 in CSS) and italic.
@@ -183,12 +183,12 @@ var systemFonts = struct {
 
 // FindLocalFont finds the path to a font from the system's fonts.
 func FindLocalFont(name string, style FontStyle) string {
-	log.Println("WARNING: github.com/tdewolff/canvas/FindLocalFont is deprecated, please use github.com/tdewolff/canvas/FindSystemFont") // TODO: remove
+	log.Println("WARNING: github.com/jilieryuyi/canvas/FindLocalFont is deprecated, please use github.com/jilieryuyi/canvas/FindSystemFont") // TODO: remove
 	filename, _ := FindSystemFont(name, style)
 	return filename
 }
 
-// CacheSystemFonts will write and load the list of system fonts to the given filename. It scans the given directories for fonts, leave nil to use github.com/tdewolff/canvas/font/DefaultFontDirs().
+// CacheSystemFonts will write and load the list of system fonts to the given filename. It scans the given directories for fonts, leave nil to use github.com/jilieryuyi/canvas/font/DefaultFontDirs().
 func CacheSystemFonts(filename string, dirs []string) error {
 	var fonts *font.SystemFonts
 	if info, err := os.Stat(filename); err == nil && info.Mode().IsRegular() {
@@ -239,7 +239,7 @@ type Font struct {
 
 // LoadLocalFont loads a font from the system's fonts.
 func LoadLocalFont(name string, style FontStyle) (*Font, error) {
-	log.Println("WARNING: github.com/tdewolff/canvas/LoadLocalFont is deprecated, please use github.com/tdewolff/canvas/LoadSystemFont") // TODO: remove
+	log.Println("WARNING: github.com/jilieryuyi/canvas/LoadLocalFont is deprecated, please use github.com/jilieryuyi/canvas/LoadSystemFont") // TODO: remove
 	return LoadSystemFont(name, style)
 }
 
@@ -400,13 +400,13 @@ func (family *FontFamily) SetFeatures(features string) {
 
 // LoadLocalFont loads a font from the system's fonts.
 func (family *FontFamily) LoadLocalFont(name string, style FontStyle) error {
-	log.Println("WARNING: github.com/tdewolff/canvas/FontFamily.LoadLocalFont is deprecated, please use github.com/tdewolff/canvas/FontFamily.LoadSystemFont") // TODO: remove
+	log.Println("WARNING: github.com/jilieryuyi/canvas/FontFamily.LoadLocalFont is deprecated, please use github.com/jilieryuyi/canvas/FontFamily.LoadSystemFont") // TODO: remove
 	return family.LoadSystemFont(name, style)
 }
 
 // MustLoadLocalFont loads a font from the system's fonts and panics on error.
 func (family *FontFamily) MustLoadLocalFont(name string, style FontStyle) {
-	log.Println("WARNING: github.com/tdewolff/canvas/FontFamily.MustLoadLocalFont is deprecated, please use github.com/tdewolff/canvas/FontFamily.MustLoadSystemFont") // TODO: remove
+	log.Println("WARNING: github.com/jilieryuyi/canvas/FontFamily.MustLoadLocalFont is deprecated, please use github.com/jilieryuyi/canvas/FontFamily.MustLoadSystemFont") // TODO: remove
 	family.MustLoadSystemFont(name, style)
 }
 

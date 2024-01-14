@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 	"unicode"
 
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/font"
 	"github.com/tdewolff/argp"
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/font"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/tiff"
 	"golang.org/x/image/vector"

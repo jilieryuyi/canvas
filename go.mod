@@ -1,6 +1,6 @@
-module github.com/tdewolff/canvas
+module github.com/jilieryuyi/canvas
 
-go 1.17
+go 1.19
 
 require (
 	fyne.io/fyne/v2 v2.4.1

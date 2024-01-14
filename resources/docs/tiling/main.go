@@ -4,8 +4,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/renderers"
+	"github.com/jilieryuyi/canvas"
+	"github.com/jilieryuyi/canvas/renderers"
 )
 
 func main() {
